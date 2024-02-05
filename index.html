@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Dodge</title>
+  <link rel="stylesheet" href="/Pages/Portfolio/Games/Game3/style.css">
+  <link rel = "icon" href= "/Images/icone_500x500.png" 
+  type = "image/x-icon">
+
+
+</head>
+<body>
+
+<div class="GUI">
+  <div class="score">Pontos: <output class="score-amount js-score">0</output></div>
+  <div class="instructions">Use A/D ou as setas direita e esquerda para movimentar</div>
+  <div id="gameover" class="overlay-wrapper">
+    <div class="overlay">
+      <h2 class="overlay-title">Perdeste</h2>
+      <div class="overlay-score">Pontos: <output class="score-amount js-score">0</output></div>
+      <button class="overlay-button js-play">Tentar outra vez</button>
+      
+    </div>
+  </div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
